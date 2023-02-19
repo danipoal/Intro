@@ -1,0 +1,84 @@
+
+body{
+    font-family: "Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    background-color: rgb(164, 222, 233);
+}
+.header {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: solid 3px blue;
+
+}
+.header h1{
+    font-size: 42px;
+    background-image: url("me.jpg");
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+
+.carnet{
+position:absolute;
+right: 5%;
+top: 0;
+}
+.foto-carnet{
+    width: 150px;
+}
+section{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.navigator{
+    margin-right: 0;
+    margin-left: 0;
+    width: fit-content;
+    
+
+}
+li:hover {
+    background-color: blue;
+    border-radius: 10px;
+
+}
+ul {
+    background-color: aqua;
+    width: 221.453px;
+    height: 200px;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border: solid blue 2px;
+    
+}
+
+li {
+   
+    margin: 10px;
+    border: 1px red solid;
+    overflow: visible;
+}
+
+.main {
+    margin: 40px;
+}
+h1 {
+    font-size: 30px;
+}
+.ola {
+    display: inline-block;
+    border: solid red 1px;
+    padding: 2px;
+    width: 200px;
+}
+.contact{
+    display: inline;
+    border: solid 3px red;
+    margin: auto 250px;
+}
